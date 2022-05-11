@@ -1,0 +1,27 @@
+.stButton > button {
+  height: 40px;
+  width: 100%;
+  font-weight: 900;
+  
+}
+
+img{
+  left: 280px;
+  position: relative;
+  
+}
+footer{
+  visibility: hidden;
+}
+/*
+#MainMenu{
+  visibility: hidden;
+}
+*/
+.stMarkdown{
+  text-align: center;
+}
+
+
+
+
