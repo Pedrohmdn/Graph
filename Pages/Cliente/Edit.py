@@ -48,7 +48,7 @@ def Edit():
     with st.form(key="alterar_cliente"):
         nome_alt = st.text_input(label="Altere o nome",max_chars=40,value=nome_ant,key="input_nome",placeholder="Digite o nome aqui")
         idade_alt = st.number_input(label="Altere a idade",max_value=100,value=idade_ant)
-        sexo_alt = st.selectbox("Sexo",("Feminino","Masculino","Outro"),key="input_sexo")
+        sexo_alt = st.selectbox("Gênero",("Feminino","Masculino","Outro"),key="input_sexo")
         estado_alt = st.selectbox("Estado",("AC","AL","AP","AM","BA","CE","DF","ES","GO","MA","MT","MS","MG","PA","PB","PR","PE","PI","RJ","RN","RS","RO","RR","SC","SP","SE","TO","EX"),key="input_estado")
         telefone_alt = st.text_input(label="Telefone",max_chars=11,value=telefone_ant,placeholder="Digite o Telefone (Mínimo 9 digitos)")
         email_alt = st.text_input(label='Email',max_chars=40,value=email_ant,placeholder="Digite o Email (example@gmail.com)")
