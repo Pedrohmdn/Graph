@@ -11,7 +11,7 @@ def Create():
     with st.form(key="include_cliente"):
         input_name = st.text_input(label="Nome",max_chars=40,placeholder="Digite o nome do cliente aqui")
         input_age = st.number_input(label="Idade",min_value=1,format='%d',max_value=100)
-        input_gender = st.selectbox("Sexo",("-","Feminino","Masculino","Outro"))
+        input_gender = st.selectbox("Gênero",("-","Feminino","Masculino","Outro"))
         input_state = st.selectbox("Estado",("-","AC","AL","AP","AM","BA","CE","DF","ES","GO","MA","MT","MS","MG","PA","PB","PR","PE","PI","RJ","RN","RS","RO","RR","SC","SP","SE","TO","EX"))
         input_telephone = st.text_input(label="Telefone",max_chars=11,placeholder="Digite seu Telefone aqui (Mínimo 9 digitos)")
         input_email = st.text_input(label='Email',max_chars=40,placeholder="Digite seu melhor email (example@gmail.com)")
