@@ -25,7 +25,7 @@ Projeto Pós Aula
 
 # Banco de Dados
 
--SQLITE
+- SQLITE
 
 # Linguagens
 
