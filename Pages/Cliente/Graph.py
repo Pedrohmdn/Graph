@@ -1,4 +1,3 @@
-from matplotlib.pyplot import magma
 import pandas as pd
 import altair as alt
 import streamlit as st
@@ -56,15 +55,15 @@ def Graph():
             o = o + 1
 
     st.title("Gráfico dos Clientes")
-    st.header("Sexo")
+    st.header("Gênero")
 
-    source = pd.DataFrame({'Sexo': ['Homens', 'Mulheres', 'Outro'],
+    source = pd.DataFrame({'Gênero': ['Homens', 'Mulheres', 'Outro'],
                            'Quantidade': [m, f, o]})
 
     sexo_cliente = alt.Chart(source).mark_bar().encode(
-        x='Sexo',
+        x='Gênero',
         y='Quantidade',
-        color='Sexo',
+        color='Gênero',
     )
 
     st.altair_chart(sexo_cliente, use_container_width=True)
