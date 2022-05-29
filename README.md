@@ -1,26 +1,27 @@
 # Graph
+
 Projeto Pós Aula
 
 
 # Frameworks 
 
--Streamlit: pip install streamlit
+- Streamlit: pip install streamlit
 
--streamlit_option_menu: (pip install streamlit-option-menu)
+- streamlit_option_menu: (pip install streamlit-option-menu)
 
--streamlit_autorefresh: (pip install streamlit-autorefresh)
+- streamlit_autorefresh: (pip install streamlit-autorefresh)
 
--Altair: (pip install altair vega_datasets)
+- Altair: (pip install altair vega_datasets)
 
 -----------------------------------------------------------
 
--Pandas
+- Pandas
 
--requests
+- requests
 
--Json
+- Json
 
--Time
+- Time
 
 # Banco de Dados
 
@@ -28,4 +29,4 @@ Projeto Pós Aula
 
 # Linguagens
 
--Python 3.10.4
+- Python 3.10.4
