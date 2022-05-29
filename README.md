@@ -5,7 +5,7 @@ Projeto Pós Aula
 
 # Frameworks 
 
-- Streamlit: pip install streamlit
+- Streamlit: (pip install streamlit)
 
 - streamlit_option_menu: (pip install streamlit-option-menu)
 
