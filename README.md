@@ -17,7 +17,7 @@ Projeto Pós Aula
 
 - Pandas
 
-- requests
+- Requests
 
 - Json
 
