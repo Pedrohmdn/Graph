@@ -3,7 +3,7 @@
 Projeto Pós Aula
 
 
-# Frameworks 
+# Frameworks e Bibliotecas 
 
 - Streamlit: (pip install streamlit)
 
