@@ -30,3 +30,9 @@ Projeto Pós Aula
 # Linguagens
 
 - Python 3.10.4
+
+#Membros
+
+- https://github.com/Vitor-HenriqueAS
+- https://github.com/PabloSilvaX
+
